@@ -20,4 +20,4 @@ plt.xlabel("Difficulty Rating")
 plt.ylabel("Frequency")
 plt.title("Distribution of Sudoku Difficulty Ratings")
 
-plt.show()
+plt.savefig("figures/rating_distribution.png")
